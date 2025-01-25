@@ -1,1 +1,16 @@
-
+{
+  "name": "location-tracking-server",
+  "version": "1.0.0",
+  "description": "WebSocket server to track location and send data to Telegram",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.4.0",
+    "node-fetch": "^3.0.0"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
