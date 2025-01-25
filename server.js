@@ -1,9 +1,9 @@
 const WebSocket = require('ws');
 const fetch = require('node-fetch');
 
-// Your Telegram Bot Token and Chat ID
-const BOT_TOKEN = 'YOUR_BOT_TOKEN';
-const CHAT_ID = 'YOUR_CHAT_ID';
+// Telegram bot credentials
+const BOT_TOKEN = 'YOUR_BOT_TOKEN';  // Replace with your Telegram bot token
+const CHAT_ID = 'YOUR_CHAT_ID';      // Replace with your Telegram chat ID
 
 // WebSocket server setup
 const wss = new WebSocket.Server({ port: 8080 });
